@@ -5,98 +5,98 @@ justification for your answer. Assume `arr` is an array of length _n_.
 
 ## `arr.push()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: its focused on one element so its constant.
 
 [push on MDN][push]
 
 
 ## `arr.pop()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(1)
+Space complexity: O(1)
+Justification: its focused on one element so its constant.
 
 [pop on MDN][pop]
 
 ## `arr.shift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: its looping so time is linear, one element is constant for space.
 
 [shift on MDN][shift]
 
 ## `arr.unshift()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: its looping so time is linear, one element is constant for space.
 
 [unshift on MDN][unshift]
 
 ## `arr.splice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: since the array is resized, memory needs to be reallocated as well.
 
 [splice on MDN][splice]
 
 ## `arr.slice()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: returns new array, which requires additional mem to store the array
 
 [slice on MDN][slice]
 
 ## `arr.indexOf()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: iterates through the array to find a single element.
 
 [indexOf on MDN][indexOf]
 
 ## `arr.map()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: iterates through original array and returns a new one requiring additional memory.
 
 [map on MDN][map]
 
 ## `arr.filter()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: iterates through original array and returns a shallow copy requiring additional memory.
 
 [filter on MDN][filter]
 
 ## `arr.reduce()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: iterates through original array and returns the result not requiring more mem
 
 [reduce on MDN][reduce]
 
 ## `arr.reverse()`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(1)
+Justification: returns original arr just reversed not requiring more memory, though it iterates through the array.
 
 [reverse on MDN][reverse]
 
 ## `[...arr]`
 
-Time complexity: O(?)
-Space complexity: O(?)
-Justification: _Fill this in_
+Time complexity: O(n)
+Space complexity: O(n)
+Justification: creating a new array, iterating through original array to get indiviual el.
 
 [spread on MDN][spread]
 
